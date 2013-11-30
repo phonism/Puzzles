@@ -12,7 +12,6 @@ It is not possible for all the chameleons to have the same color.
 
 ```
 	mod(G - Y, 3)
-
 	mod(G - B, 3)
 ```
 
@@ -20,7 +19,6 @@ Now let's remain focused on just these two special quantities, and consider whet
 
 ```
 	mod((G - 1) - (Y - 1), 3) = mod(G - Y), 3)
-    
 	mod((G - 1) - (B + 2), 3) = mod(G - B - 3, 3) = mod(G - B, 3)
 ```
 
@@ -30,7 +28,6 @@ Now, suppose that, by some series of meetings, we were able to make all the cham
 
 ```
 	mod(G - Y, 3) = mod(45 - 0, 3) = 0
-
 	mod(G - B, 3) = mod(45 - 0, 3) = 0
 ```
 
@@ -38,7 +35,6 @@ But we started out with
 
 ```
 	mod(17 - 17, 3) = mod(-2, 3) = 1
-	
 	mod(15 - 13, 3) = mod(2, 3) = 2
 ```
 
