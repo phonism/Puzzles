@@ -1,4 +1,4 @@
-#**Sum of squares of divisors*
+#**Sum of squares of divisors**
 
 ###**Description**
 
